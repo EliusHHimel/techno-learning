@@ -31,3 +31,8 @@
   height: 179.3px;
   width: 369.8px;
 }
+.member-img{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
