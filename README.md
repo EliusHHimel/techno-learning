@@ -7,3 +7,4 @@ Live Site: [Click Here](https://techno-learning.netlify.app).
 - This website also have a section to view all courses.
 - The page will not load everytime you click on a button to go another page.
 - This page is medium responsive (Will be fully responsive later).
+- Has 404 error page
