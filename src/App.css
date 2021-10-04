@@ -14,6 +14,9 @@
   background-position: 100%;
   background-size: cover;
 }
+.h1{
+  font-size: 80px;
+}
 .top-section{
   background-color: rgba(0, 0, 0, 0.63);
   color: aliceblue;
@@ -22,5 +25,9 @@
 .active {
   border-bottom: 3px solid green;
   font-weight: bold;
-  background-color: honeydew;
+  background-color: rgb(231, 238, 231);
+}
+.catagory-img{
+  height: 179.3px;
+  width: 369.8px;
 }
