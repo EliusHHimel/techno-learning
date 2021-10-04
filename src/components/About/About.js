@@ -3,6 +3,8 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import Member from '../Member/Member';
 
+// About us component
+
 const About = () => {
     const [members, setMembers] = useState([]);
     useEffect(() => {
@@ -21,10 +23,10 @@ const About = () => {
                 </div>
             </div>
             <div className="mt-4">
-                <div className="container-fluid">
-                    <h1>Our Team</h1>
+                <div className="container-fluid mb-3">
+                    <h1>~ Our Team ~</h1>
                 </div>
-                <div className="container-fluid row">
+                <div className="container-fluid row mb-3">
                     {
                         members.map(member => <Member key={member.key} member={member}></Member>)
                     }

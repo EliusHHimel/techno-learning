@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Show course details in services page
+
 const Course = (props) => {
     const { title, fee, img } = props.course;
     return (

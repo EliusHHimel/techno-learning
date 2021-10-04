@@ -1,12 +1,16 @@
 .App {
   text-align: center;
 }
+header{
+  background-color: gray;
+  color: white;
+}
 .btn{
   border: 1px solid #b9b9b9;
 }
 .btn:hover{
-  background-color: gray;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.747);
+  color: white !important;
 }
 .top-container{
   background-image: url('https://cdn.discordapp.com/attachments/690148635375435825/856863476529627166/wallpaperflare.com_wallpaper.jpg');
@@ -22,7 +26,12 @@
   color: aliceblue;
   padding: 30px;
 }
+.course-catagory{
+  background: #a4fffaa8;
+  padding: 10px;
+}
 .active {
+  color: black !important;
   border-bottom: 3px solid green;
   font-weight: bold;
   background-color: rgb(231, 238, 231);
@@ -35,4 +44,9 @@
   border-radius: 50%;
   width: 250px;
   height: 250px;
+}
+
+.footer{
+  background-color: black;
+  color: white;
 }

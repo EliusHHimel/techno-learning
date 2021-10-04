@@ -1,6 +1,8 @@
 import React from 'react';
 import Course from '../Course/Course';
 
+// Show course from different catagory in services page
+
 const CoursesCatagory = (props) => {
     const { name, catid, courses } = props.catagory
     return (
