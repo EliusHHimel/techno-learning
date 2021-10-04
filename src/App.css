@@ -50,3 +50,11 @@ header{
   background-color: black;
   color: white;
 }
+.oops-text{
+  color: crimson;
+  font-size: 150px;
+  font-weight: bold;
+}
+.not-found{
+  font-size: 80px;
+}
